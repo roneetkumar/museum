@@ -24,8 +24,7 @@
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#0336ff"
-            android:theme="@style/AppTheme"
+            android:background="@color/md_indigo_A700"
             app:liftOnScroll="true">
 
             <androidx.appcompat.widget.Toolbar
@@ -33,6 +32,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/main_toolbar"
                 android:layout_gravity="center_vertical"
+                style="@style/Toolbar"
                 app:titleTextColor="#FFFFFF"/>
 
             <com.google.android.material.tabs.TabLayout
@@ -45,7 +45,7 @@
                 app:tabMode="scrollable"
                 app:tabSelectedTextColor="#FFFFFF"
                 app:tabTextColor="#B0FFFFFF"
-                android:background="#0336ff">
+                android:background="@color/md_indigo_A700">
             </com.google.android.material.tabs.TabLayout>
 
         </com.google.android.material.appbar.AppBarLayout>

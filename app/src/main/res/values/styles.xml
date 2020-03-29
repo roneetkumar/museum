@@ -1,11 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/md_indigo_A700</item>
+        <item name="colorPrimaryDark">@color/md_indigo_A700</item>
+        <item name="colorAccent">@color/md_amber_500</item>
     </style>
 
 <style name="Theme.Museum.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent" />
